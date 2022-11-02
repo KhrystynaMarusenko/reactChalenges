@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import ColorRender from './component/ColorRender/ColorRender';
+import DarkMode from './component/DarkMode/DarkMode';
+import FormValidator from './component/FormValidator/Formalidator';
+import DogPicture from './component/DogPicture/DogPicture';
+import ScoreKeeper from './component/ScoreKeeper/ScoreKeeper';
+import WindowEvent from './component/WindowEvent/WindowEvent';
+import ColorPicker from './component/ColorPicker/ColorPicker';
+import PixelArt from './component/PixelArt/PixelArt';
+import SimpleCalculator from './component/SimpleCalculator/SimpleCalculator';
+import FocusInput from './component/FocusInput/FocusInput';
+import ShoppingCart from './component/ShoppingCart/ShoppingCart';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ShoppingCart/>
     </div>
   );
 }
